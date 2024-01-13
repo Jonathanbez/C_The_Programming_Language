@@ -4,7 +4,7 @@ void sp_to_dash(const char *str);
 
 int main(void)
 {
-	sp_to_dash("isso é um teste");
+	sp_to_dash("isso é um teste, vejamos se...");
 }
 
 void sp_to_dash(const char *str)
