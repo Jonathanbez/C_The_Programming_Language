@@ -6,11 +6,11 @@ int main()
 {
 	while(1)
 	{
-		char *men = malloc(1048576);
+		char *mem = malloc(1048576);
 
 		if(mem == NULL)
 		{
-			fprint(stderr, "Falha na alocação de memória\n");
+			fprintf(stderr, "Falha na alocação de memória\n");
 			break;
 		}
 		free(mem);
