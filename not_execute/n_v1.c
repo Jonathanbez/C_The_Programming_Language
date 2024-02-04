@@ -22,12 +22,12 @@ int main()
             total_size += chunk_size;
             printf("Memória alocada até agora: %lld MB\n", total_size / (1024 * 1024));
         }
-       	else
-       	{
+	//	else
+       //	{
             // Se a alocação falhar, saia do loop
-            printf("Falha na alocação de memória. Saindo...\n");
-            break;
-        }
+      //      printf("Falha na alocação de memória. Saindo...\n");
+     //      break;
+      //  }
     }
 
     // Libera a memória alocada antes de sair
