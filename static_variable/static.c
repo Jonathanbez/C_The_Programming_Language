@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-void series(void)
-{
-        static int series_num;
+void series(void);
 
-        series_num = series_num+23;
-        return (series_num);
-}
-
-
-int main
+int main()
 {
 	series();
+	return 0;
+}
+
+void series(void)
+{
+	static int series_num = 0;
+	series_num = series_num + 23;
+	printf("%d\n", series_num);
 }
 
