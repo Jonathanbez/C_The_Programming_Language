@@ -1,18 +1,19 @@
 #include <stdio.h>
 
-int_pwr(register int m, register int e)
+int int_pwr(register int m, register int e)
 {
 	register int temp;
 
 	temp = 1;
 
-	for(; e; e--) temp = * m;
+	for(; e; e--) temp = temp * m;
 	return temp;
 }
 
 int main()
 {
-	int_pwr(5, 5);
+	int result = int_pwr(5, 5);
+	printf("Result: %d\n", result);
 	return 0;
 }
 
