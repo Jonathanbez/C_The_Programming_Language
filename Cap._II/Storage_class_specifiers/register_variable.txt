@@ -1,0 +1,4 @@
+
+Especificador de armazenamento de variável que é armazenada diretamente no registrador da CPU ao invés de ser armazenada na Memoria RAM. Tornando o acesso ao objeto o mais rápido possivel. 
+
+Note que somente pode ser aplicado a variáveis locais e a parâmetros formais em uma função. NÃO SÃO PERMITIDOS VARIAVEIS GLOBAIS AO ESPECIFICADOR REGISTER.
