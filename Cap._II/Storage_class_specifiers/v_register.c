@@ -6,7 +6,7 @@ int int_pwr(register int m, register int e)
 
 	temp = 1;
 
-	for(; e; e--;) temp = temp * m;
+	for(; e; e--) temp = temp * m;
 	return temp;
 }
 
