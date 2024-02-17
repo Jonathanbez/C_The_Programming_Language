@@ -12,7 +12,9 @@ int int_pwr(register int m, register int e)
 
 int main()
 {
-	int result = int_pwr(5, 5);
+	int a, b;
+	scanf("%d%d", &a, &b);
+	int result = int_pwr(a, b);
 	printf("Result: %d\n", result);
 	return 0;
 }

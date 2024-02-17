@@ -2,3 +2,9 @@
 Especificador de armazenamento de variável que é armazenada diretamente no registrador da CPU ao invés de ser armazenada na Memoria RAM. Tornando o acesso ao objeto o mais rápido possivel. 
 
 Note que somente pode ser aplicado a variáveis locais e a parâmetros formais em uma função. NÃO SÃO PERMITIDOS VARIAVEIS GLOBAIS AO ESPECIFICADOR REGISTER.
+
+Recomendado para variáveis que serão feitas muitas referências. 
+
+Não se preucupe com o espço do registrador da CPU pois o compilador se encarrega de ajustar quais permanecem se o limite for atingido.
+
+Note que NÃO SE PODE TER ENDEREÇOS EM VARIAVEIS COM ESPECIFICADOR REGISTER (&), NÃO HÁ COMO ENCONTRAR UM ENDEREÇO DA VARRIAVEL REGISTER NO REGISTRADOR DA CPU.
