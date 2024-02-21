@@ -4,7 +4,7 @@ void ft_putstr(char *strC)
 {
 	while(*strC != '\0')
 	{
-		write(1, &c, 1);
+		write(1, &strC, 1);
 		strC++;
 	}
 }
