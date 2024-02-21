@@ -1,13 +1,18 @@
 #include <unistd.h>
 
-void ft_putchar(char *c)
+void ft_putstr(char *strC)
 {
-	write(1, &c, 1);
+	while(*str != '\0')
+	{
+		write(1, &c, 1);
+		strC++;
+	}
 }
+
 
 int main()
 {
-	ft_putchar('Hello Word of programming, im dev Jonathan!');
+	ft_str('Hello Word of programming, im dev Jonathan!');
 	return(0);
 }
 
