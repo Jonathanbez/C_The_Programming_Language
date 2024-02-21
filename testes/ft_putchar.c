@@ -7,7 +7,7 @@ void ft_putchar(char *c)
 
 int main()
 {
-	ft_putchar("Hello Word of programming, im dev Jonathan!");
+	ft_putchar('Hello Word of programming, im dev Jonathan!');
 	return(0);
 }
 
