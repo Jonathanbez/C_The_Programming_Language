@@ -12,7 +12,7 @@ void ft_putstr(char *strc)
 
 int main()
 {
-	ft_putstr('Hello Word of programming, im dev Jonathan!');
+	ft_putstr("Hello Word of programming, im dev Jonathan!");
 	return(0);
 }
 
