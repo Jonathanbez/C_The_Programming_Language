@@ -9,7 +9,7 @@ void ft_putstr(char *strc)
 	}
 }
 
-
+void	ft_putstr(char *str);
 int main(void)
 {
 	ft_putstr("hello");
