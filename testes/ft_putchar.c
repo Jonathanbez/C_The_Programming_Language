@@ -2,7 +2,7 @@
 
 void ft_putstr(char *strc)
 {
-	while(*strc != '/n')
+	while(*strc != '\n')
 	{
 		write(1, strc, 1);
 		strc++;
@@ -12,7 +12,7 @@ void ft_putstr(char *strc)
 
 int main()
 {
-	ft_putstr("Hello Word of programming, im dev Jonathan!/n");
+	ft_putstr("Hello Word of programming, im dev Jonathan!\n");
 	return(0);
 }
 
