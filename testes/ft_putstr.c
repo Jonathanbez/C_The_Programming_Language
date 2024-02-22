@@ -9,7 +9,6 @@ void ft_putstr(char *strc)
 	}
 }
 
-void	ft_putstr(char *str);
 int main(void)
 {
 	ft_putstr("Hello Word of programming, im dev Jonathan!\n");
