@@ -9,4 +9,6 @@ int main() {
   const int b;
   printf("%c\n", c);
   printf("%d\n", b);
+  int a;
+  printf("%d", a);
 }
