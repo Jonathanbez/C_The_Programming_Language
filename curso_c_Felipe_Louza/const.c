@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define PI 3.1416
+#define hello "Hello Word!\n"
 
 int main() {
   double x = PI;
@@ -11,4 +12,5 @@ int main() {
   printf("%d\n", b);
   int a;
   printf("%d", a);
+  printf(hello);
 }
