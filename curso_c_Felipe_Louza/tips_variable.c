@@ -8,9 +8,10 @@ int main()
 	int i = 1, j = 2, k;
 	float _variabre;
 	int valor, media, soma;
-	printf("Palavras reservadas em C:\n auto, double, int, struct, break, enum,
-	register, typedef, char, extern, return, union, const, float, short, unsigned,
-	continue, for, signed, void, default, goto, sizeof, volatile, do, if, static, while\n");
+	printf("Palavras reservadas em C:\n")
+	printf("auto, double, int, struct, break, enum, register, typedef, char,\n"); 
+	printf("extern, return, union, const, float, short, unsigned, continue, for,\n");
+	printf("signed, void, default, goto, sizeof, volatile, do, if, static, while\n");
 		
 	return 0;
 }
