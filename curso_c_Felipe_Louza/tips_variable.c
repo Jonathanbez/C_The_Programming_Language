@@ -13,7 +13,7 @@ int main()
 	printf("extern, return, union, const, float, short, unsigned, continue, for,\n");
 	printf("signed, void, default, goto, sizeof, volatile, do, if, static, while\n");
 	
-	printf("Tipos de Variaveis:\n");
+	printf("\nTipos de Variaveis:\n");
 	printf("short = 2 bytes = -32.768 a 32.767\n");
 	printf("int = 4 bytes = -2.147.483.648 a 2.147.483.647\n");
 	printf("long = 8 bytes = 2^63 a 2^63-1\n");
