@@ -11,6 +11,6 @@ int main() {
   printf("%c\n", c);
   printf("%d\n", b);
   int a;
-  printf("%d", a);
+  printf("%d\n", a);
   printf(hello);
 }
