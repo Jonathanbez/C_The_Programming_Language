@@ -4,9 +4,9 @@
 int main() {
   double x = PI;
 
-  printf("Pi =%f", x);
+  printf("Pi =%f\n", x);
   const char c = 'a';
   const int b;
-  printf("%c", c);
-  printf("%d", b);
+  printf("%c\n", c);
+  printf("%d\n", b);
 }
