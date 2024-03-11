@@ -3,7 +3,7 @@
 #define hello "Hello Word!\n"
 
 // podemos definir variaveis constantes com #define
-// 
+// variaveis const iniciam com 0
 
 int main() {
   double x = PI;
