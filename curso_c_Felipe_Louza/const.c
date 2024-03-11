@@ -2,6 +2,8 @@
 #define PI 3.1416
 #define hello "Hello Word!\n"
 
+// podemos definir variaveis 
+
 int main() {
   double x = PI;
 
