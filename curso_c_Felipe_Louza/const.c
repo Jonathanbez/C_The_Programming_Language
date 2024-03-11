@@ -4,6 +4,7 @@
 
 // podemos definir variaveis constantes com #define
 // variaveis const iniciam com 0
+// define tambem armazena string
 
 int main() {
   double x = PI;
