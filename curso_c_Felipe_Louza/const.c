@@ -5,6 +5,7 @@
 // podemos definir variaveis constantes com #define
 // variaveis const iniciam com 0
 // define tambem armazena string
+// o codigo nao compila se tentar trocar o valor de const
 
 int main() {
   double x = PI;
