@@ -14,7 +14,7 @@ int main ()
     n_p_m = x + y * z;
     printf("Result of first equation (no multiplication precedence) %d", n_p_m);
     p_m = (x + y) * z;
-    printf("Result of secundo equation (on multiplication precedence) %d", p_m);
+    printf("Result of secundo equation (on multiplication precedence) %d\n\n", p_m);
     printf("1. In Parentheses ()\n");
     printf("2. Multiplications\n");
     printf("3. Division\n");
