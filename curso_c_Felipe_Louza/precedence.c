@@ -8,6 +8,6 @@ int main ()
     y = 3
     z = 4
 
-    //Em C operadores matematicos seguem a mesma
+    //Em C operadores matematicos seguem a mesma regra da Algebra
 
 }
