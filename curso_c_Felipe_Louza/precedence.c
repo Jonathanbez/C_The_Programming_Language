@@ -10,4 +10,6 @@ int main ()
 
     //Em C operadores matematicos seguem a mesma regra da Algebra
 
+    p_m = + y * z 
+    printf("Result of first equation (multiplication precedence) %d", p_m)
 }
