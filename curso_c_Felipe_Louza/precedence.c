@@ -18,7 +18,7 @@ int main ()
     printf("1. In Parentheses ()\n");
     printf("2. Multiplications\n");
     printf("3. Division\n");
-    printf("4. Modulo\n");  // Corrected spelling: "Module" -> "Modulo"
+    printf("4. Module\n");  
     printf("5. Addition\n");
     printf("6. Subtraction\n");
 }
