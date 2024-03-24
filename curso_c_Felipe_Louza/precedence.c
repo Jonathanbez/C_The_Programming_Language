@@ -21,4 +21,5 @@ int main ()
     printf("4. Modulo\n");  // Corrected spelling: "Module" -> "Modulo"
     printf("5. Addition\n");
     printf("6. Subtraction\n");
+    printf("OBS.: Começando a multiplicação mais a esquerda")
 }
