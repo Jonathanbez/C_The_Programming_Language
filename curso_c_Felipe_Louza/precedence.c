@@ -21,7 +21,7 @@ int main ()
     printf("4. Module\n");  
     printf("5. Addition\n");
     printf("6. Subtraction\n");
-    printf("NOTE: Always start from the left.\n Module only works on int values"); 
+    printf("NOTE: Always start from the left.\n      Module only works on int values\n"); 
      
     int y1 = 2 * 5 * 5 + 3 * 5 + 7; 
     printf("y = 2 * 5 * 5 + 3 * 5 + 7\ny = %d\n", y1);
