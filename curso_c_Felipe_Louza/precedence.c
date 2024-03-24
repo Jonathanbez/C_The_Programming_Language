@@ -21,9 +21,4 @@ int main ()
     printf("4. Module\n");  
     printf("5. Addition\n");
     printf("6. Subtraction\n");
-<<<<<<< HEAD
-    printf("NOTE: Always start from the left.")
 }
-=======
-}
->>>>>>> b2b40d5268864546e0bd7f69d160aee47ff2eb82
