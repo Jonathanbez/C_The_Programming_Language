@@ -15,5 +15,8 @@ int main()
     printf("Pi com 9 casas decimais: %f\n", pi);
     printf("Pi simplificado somente com duas casas decimais: %.2f\n", pi);
     printf("Emita um ruido\a\n");
+    int f_value, s_value
+    scanf("%d %d", &f_value, &s_value);
+    printf("Digite os valores")
 
 }
