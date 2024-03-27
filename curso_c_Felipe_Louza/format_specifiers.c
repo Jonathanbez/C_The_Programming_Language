@@ -10,9 +10,9 @@ int main()
     double z = 2.2;
     printf("%d %d %c\n", x,y,c);
     // syntax follows the order of the specifier with the variables informed
-    printf("%d %s %f=%d", x, "+", z, x+z);
-    float pi = 3.141592653
+    printf("%d %s %f %f\n", x, "+", z, x+z);
+    float pi = 3.141592653;
     printf("Pi com 9 casas decimais: %f\n", pi);
-    printtf("Pi simplificado somente com duas casas decimais: %.2f\n", pi);
+    printf("Pi simplificado somente com duas casas decimais: %.2f\n", pi);
 
 }
