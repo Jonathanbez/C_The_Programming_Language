@@ -5,11 +5,12 @@
 
 int main()
 {
+    /*
     int x = 10, y = 30;
     char c = 'X';
     double z = 2.2;
     printf("%d %d %c\n", x,y,c);
-    // syntax follows the order of the specifier with the variables informed
+    printf("\nSyntax follows the order of the specifier with the variables informed of left for right\n");
     printf("%d %s %f %f\n", x, "+", z, x+z);
     float pi = 3.141592653;
     printf("PI with 9 decimal places %f\n", pi);
@@ -22,6 +23,7 @@ int main()
     printf("%%ls read a Double\n");
     printf("%%c read a Char\n");
     printf("%%s read String\n");
+    */
 
     printf("\aEnter the first value: ");
     int f_value;
