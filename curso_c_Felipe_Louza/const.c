@@ -9,6 +9,8 @@
 
 int main() {
   double x = PI;
+  char name[] = "Jonathan Bezerra Barros";
+
 
   printf("Pi =%f\n", x);
   const char c = 'a';
@@ -18,5 +20,6 @@ int main() {
   int a;
   printf("%d\n", a);
   printf(hello);
+  printf("%s\n", name);
 }
 
