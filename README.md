@@ -1,2 +1,2 @@
 # C_The_Programming_Language
-My studies to book "C: The Complete Reference" by Herbert Schildt.
+My studies to book "C: The Complete Reference" by Herbert Schildt, and other courses and books.
