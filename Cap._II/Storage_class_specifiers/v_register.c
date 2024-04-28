@@ -17,5 +17,6 @@ int main()
 	int result = int_pwr(a, b);
 	printf("Result: %d\n", result);
 	return 0;
+
 }
 
