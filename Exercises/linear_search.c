@@ -11,7 +11,7 @@ int search(int arr[], int N, int x)
 int main(void)
 {
 	int arr[] = { 2, 3, 4, 10, 40, 42, 50};
-	int x = 10;
+	int x = 42;
 	int N = sizeof(arr) / sizeof(arr[0]);
 
 	int result = search(arr, N, x);
