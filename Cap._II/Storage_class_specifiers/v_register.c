@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int int_pwr(register int m, register int e)
 {
@@ -14,6 +15,7 @@ int main()
 {
 	int a, b;
 	scanf("%d%d", &a, &b);
+	system("color A");
 	int result = int_pwr(a, b);
 	printf("Result: %d\n", result);
 	return 0;
