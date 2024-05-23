@@ -21,7 +21,7 @@ int main()
 
 void lgc_op_and()
 {
-	printf("Logical Conjunction AND(&&)\n");
+	printf("Logical AND(&&)\n");
     	printf("X | Y = X && Y\n");
     	printf("1 | 1 =   1   \n");
     	printf("1 | 0 =   0   \n");
@@ -31,7 +31,7 @@ void lgc_op_and()
 
 void lgc_op_or()
 {
-	printf("Logical Conjuntion OR(||)\n");
+	printf("Logical OR(||)\n");
 	printf("X | Y = X || Y\n");
 	printf("1 | 1 =   1   \n");
 	printf("1 | 0 =   1   \n");
@@ -41,9 +41,11 @@ void lgc_op_or()
 
 void lgc_op_not()
 {
-	printf("Logical Conjuntion NOT(!)\n");
+	printf("Logical NOT(!)\n");
         printf("X | !X\n");
 	printf("0 = 1\n");
 	printf("1 = 0\n");
 }
 
+void example()
+	printf("AND - ");
