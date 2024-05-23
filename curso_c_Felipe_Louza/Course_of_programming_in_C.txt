@@ -1,3 +1,11 @@
 Course of Programming in C of Prof. Felipe Louza
 
 playlist on Youtube: https://www.youtube.com/playlist?list=PLuARAw3cqFRAUNLs3uyiabGuQceuSTeLS
+
+23/05/24
+[C] 10. Operadores relacionais em linguagem C
+
+Links de artigos paralelos:
+https://www.geeksforgeeks.org/logical-operators-in-c/
+Logical Operators in C
+
