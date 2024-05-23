@@ -3,6 +3,7 @@
 void lgc_op_and();
 void lgc_op_or();
 void lgc_op_not();
+void example();
 
 int main()
 {
@@ -13,6 +14,7 @@ int main()
 	lgc_op_and();
 	lgc_op_or();
 	lgc_op_not();
+	example(x, y);
 	
 	return 0;
     
@@ -47,5 +49,7 @@ void lgc_op_not()
 	printf("1 = 0\n");
 }
 
-void example()
-	printf("AND - ");
+void example(int x, int y)
+{
+	printf("AND: X && Y = %d", (x == 10 && y == 2));
+}
