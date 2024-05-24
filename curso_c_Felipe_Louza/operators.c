@@ -51,5 +51,6 @@ void lgc_op_not()
 
 void example(int x, int y)
 {
-	printf("AND: X && Y = %d", (x == 10 && y == 2));
+	printf("NOT: X && Y = %d\n", (x != 1 && y != 20));
+	printf("X == Y + 8 = %d\n", x == y + 8);
 }
