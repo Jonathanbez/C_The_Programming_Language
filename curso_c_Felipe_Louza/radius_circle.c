@@ -4,15 +4,15 @@
 
 int main()
 {
-	radius = 0;
+	float radius = 0;
 
-	printf("Insert the radius of circle");
+	printf("Insert the radius of circle: ");
 	scanf("%f", &radius);
 
 	if(radius > 0.0)
 	{
 		float area = PI * (radius * radius);
-		printf("Area of circle: %d\n", area);
+		printf("Area of circle: %f\n", area);
 	}
 
 	return 0;
