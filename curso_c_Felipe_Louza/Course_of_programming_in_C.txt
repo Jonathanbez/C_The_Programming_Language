@@ -9,3 +9,6 @@ Links de artigos paralelos:
 https://www.geeksforgeeks.org/logical-operators-in-c/
 Logical Operators in C
 
+24/05/24
+[C] 11. Comandos condicionais com if/else
+
